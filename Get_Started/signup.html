@@ -27,16 +27,27 @@
         </div>
       </nav>
       <div class="login-page">
-        <div class="login-container">
-          <h2 class="login-title">Signup</h2>
+        <div class="signup-container">
+          <h2 class="signup-title">Signup</h2>
           <div class="input-container">
+            <p class="input-title">First Name*</p>
+            <input class="input-field margin-bottom" type="text">
+            <p class="input-title">Last Name</p>
+            <input class="input-field margin-bottom" type="text">
             <p class="input-title">Email address*</p>
             <input class="input-field margin-bottom" type="text">
-            <p class="input-title">Password*</p>
-            <input type="password" class="input-field margin-bottom" type="text" />
+            <div class="input-password">
+              <p class="input-title">Password*</p>
+              <input type="password" class="input-field margin-bottom" type="text" />
+              <i class="pass-icon fa-solid fa-eye"></i>
+              <p class="input-title"> Confirm Password*</p>
+              <i class="pass-icon2 fa-solid fa-eye"></i>
+              <input type="password" class="input-field margin-bottom" type="text" />
+            </div>
+            
           </div>
-          <div class="login-elements">
-            <div class="element-remember-me">
+          <div class="signup-elements">
+            <div class="element-checkbox">
               <input id="checkbox" type="checkbox"> I Accept the terms & conditions
             </div>
           </div>
@@ -48,3 +59,4 @@
       </div>
 </body>
 </html>
+<script src="https://kit.fontawesome.com/56744ae91f.js" crossorigin="anonymous"></script>
