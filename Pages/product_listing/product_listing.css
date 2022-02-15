@@ -1,0 +1,24 @@
+.sidebar{
+    padding-left: 2rem;
+    width: 15%;
+    gap: 2rem;
+}
+
+.container-one, .range-amount{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-two input{
+    width: 100%;
+}
+.container-two{
+    gap: 1rem;
+}
+.container-three, .container-four, .input-container{
+    gap: 0.5rem;
+}
+.container-three input{
+    width: 1rem;
+    height: 1rem;
+}
