@@ -35,8 +35,8 @@
 }
 
 #checkbox{
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
 }
 
 .btn.primary-btn{
@@ -53,7 +53,7 @@
 }
 .greater-than{
     padding-left: 0.5rem;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .login-title{
