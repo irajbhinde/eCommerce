@@ -27,14 +27,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 2rem 2rem;
 }
+
 .left-navbar {
   cursor: pointer;
   font-size: 1rem;
 }
+
 .right-navbar {
   display: flex;
   gap: 2.5rem;
