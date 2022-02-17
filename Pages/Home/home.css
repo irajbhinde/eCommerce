@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Indie+Flower&family=Montserrat:wght@300&family=Nunito+Sans:wght@700&family=Open+Sans+Condensed:wght@700&family=Shadows+Into+Light&display=swap");
-body {
-  overflow-x: hidden;
-}
+
 .nav-bar {
   width: 100%;
   display: flex;
@@ -64,6 +62,7 @@ body {
 .cards {
   box-shadow: none;
   padding: 0;
+  margin: 0;
 }
 
 .cards.horizontal {
