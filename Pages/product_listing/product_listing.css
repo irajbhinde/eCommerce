@@ -45,10 +45,6 @@
   flex-wrap: wrap;
 }
 
-.bg-gray {
-  background-color: #908988;
-}
-
 .buttons_icons {
   gap: 0.625rem;
 }
