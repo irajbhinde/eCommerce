@@ -1,0 +1,41 @@
+.cards {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.cards.horizontal {
+    width: 37.5rem;
+  }
+
+/* .horizontal-card-title {
+    font-size: 1.25rem;
+  } */
+  
+.cards-title-horizontal {
+    height: 150px ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem;
+    justify-content: flex-end;
+  }
+
+.cards-qty{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+}
+
+.image_div img{
+  width: 150px;
+  height: 150px;
+}
+
+.cards-title-horizontal{
+  gap: 1rem;
+}
