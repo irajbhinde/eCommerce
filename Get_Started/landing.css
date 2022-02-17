@@ -1,62 +1,87 @@
-:root{
-    --primary-color: #FF6F61;
-    --black-text: #1E1C1C;
-    --facebook-blue: #1877F2;
-    --hero-bg : #FFFFF0;
-    --login-bg: #ffffff; 
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-a{
-    color: var(--black-text);
+:root {
+  --primary-color: #ff6f61;
+  --black-text: #1e1c1c;
+  --facebook-blue: #1877f2;
+  --hero-bg: #fffff0;
+  --login-bg: #ffffff;
+  --page-containers: #e5e5e5;
 }
 
-.primary-highlight{
-    color: var(--primary-color);
+a {
+  color: var(--black-text);
 }
 
-.nav-bar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-.left-navbar{
-    cursor: pointer;
-    font-size: 1rem;
-}
-.right-navbar{
-    display: flex;
-    gap: 2.5rem;
+.primary-highlight {
+  color: var(--primary-color);
 }
 
-
-.landing-content{
-    display: flex;
-    background-color: var(--hero-bg);
-    align-items: center;
-    justify-content: space-around;
-    height: 38.5rem;
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem;
 }
 
-.landing-image img{
-    width: 31.875rem;
-    height: 23.75rem;
+.left-navbar {
+  cursor: pointer;
+  font-size: 1rem;
 }
 
-.landing-text{
-    font-size: 1.875rem;
-    width: 40rem;
+.right-navbar {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
 }
 
-.btn-getstarted{
-    margin-top: 2rem;
-    padding: 1rem 5rem;
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    cursor: pointer;
-    border: none;
-    font-size: 1rem;
+.landing-content {
+  display: flex;
+  background-color: var(--hero-bg);
+  align-items: center;
+  justify-content: space-around;
+  height: 38.5rem;
 }
+
+.landing-image img {
+  width: 31.875rem;
+  height: 23.75rem;
+}
+
+.landing-text {
+  font-size: 1.875rem;
+  width: 40rem;
+}
+
+.btn-getstarted {
+  margin-top: 2rem;
+  padding: 1rem 5rem;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+
+.flex_c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_r {
+  display: flex;
+}
+
+.padding-bottom{
+    padding-bottom: 2rem;
+}
+
+.bg-gray {
+    background-color: #908988;
+  }

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://endlessui.netlify.app/css/intro.css "
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/Pages/product_listing/product_listing.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <div class="left-navbar">
+          <h2>
+            <a href="/index.html">
+              <span class="primary-highlight">Untz</span>Untz!</a
+            >
+          </h2>
+        </div>
+        <div class="right-navbar">
+          <a href="/Pages/Home/home.html"><i class="fa-solid fa-arrow-left-long"></i>Back to Home</a>
+          <a href="/Pages/login_signup/login.html">Login</a>
+          <a href="/Pages/login_signup/signup.html">Signup</a>
+          <a href="/Pages/Cart/cart.html"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+          <a href="/Pages/Wishlist/wishlist.html"
+            ><i class="fa-solid fa-heart"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <div class="doc-product flex_r">
+      <aside>
+        <div class="sidebar flex_c">
+          <div class="container-one flex_r">
+            <h3>Filter</h3>
+            <h4><u>Clear Filters</u></h4>
+          </div>
+          <div class="container-two flex_c">
+            <h3>Price</h3>
+            <div class="range-amount flex_r">
+              <p>500</p>
+              <p>5000</p>
+              <p>10000</p>
+            </div>
+            <input type="range" min="500" max="10000" name="" id="" />
+          </div>
+          <div class="container-three flex_c">
+            <h3>Category</h3>
+            <span><input type="checkbox" /> Anjunadeep </span>
+            <span><input type="checkbox" /> Anjunabeats </span>
+            <span><input type="checkbox" /> Above & Beyond </span>
+          </div>
+          <div class="input-container flex_c">
+            <h3>Rating</h3>
+            <div class="radio-btns flex_c">
+              <span
+                ><input type="radio" name="rating" value="4+" /> 4 stars &
+                above</span
+              >
+              <span
+                ><input type="radio" name="rating" value="3+" /> 3 stars &
+                above</span
+              >
+              <span
+                ><input type="radio" name="rating" value="2+" /> 2 stars &
+                above</span
+              >
+              <span
+                ><input type="radio" name="rating" value="1+" /> 1 stars &
+                above</span
+              >
+            </div>
+          </div>
+          <div class="input-container flex_c">
+            <h3>Sort By</h3>
+            <div class="radio-btns flex_c">
+              <span
+                ><input
+                  type="radio"
+                  name="pricefilter"
+                  value="low-to-high"
+                />Price - Low to High</span
+              >
+              <span
+                ><input
+                  type="radio"
+                  name="pricefilter"
+                  value="low-to-high"
+                />Price - Low to High</span
+              >
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="product-cards flex_r">
+        <div class="cards">
+          <div class="img_text">
+            <span class="top-left-badge">On Sale</span>
+            <i class="far fa-heart fa-lg top-right-badge"></i>
+
+            <img class="cards-image" src="/Images/1.jpg" />
+            <div class="cards-title vertical-card">
+              <p>Icasuras</p>
+              <small> Only </small>
+              <small>₹2000</small>
+            </div>
+          </div>
+          <div class="buttons_icons flex_c">
+            <button class="btn-card vertical-card">Add to cart</button>
+            <button class="bg-none btn-card vertical-card">
+              Add to Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="img_text">
+            <i class="far fa-heart fa-lg top-right-badge"></i>
+
+            <img class="cards-image" src="/Images/2.jpg" />
+            <div class="cards-title vertical-card">
+              <p>Myon feat. Alissa Feudo</p>
+              <small> Moon </small>
+              <small>₹1000</small>
+            </div>
+          </div>
+          <div class="buttons_icons flex_c">
+            <a href="/Pages/Cart/cart.html"
+              ><button class="bg-gray btn-card vertical-card">
+                Go to cart
+              </button></a
+            >
+            <button class="bg-none btn-card vertical-card">
+              Add to Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="img_text">
+            <i class="far fa-heart fa-lg top-right-badge"></i>
+
+            <img class="cards-image" src="/Images/3.jpg" />
+            <div class="cards-title vertical-card">
+              <p>Orion</p>
+              <small> Your love </small>
+              <small>₹2000</small>
+            </div>
+          </div>
+          <div class="buttons_icons flex_c">
+            <button class="btn-card vertical-card">Add to cart</button>
+            <button class="bg-none btn-card vertical-card">
+              Add to Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="img_text">
+            <span class="top-left-badge">On Sale</span>
+            <i class="fas fa-heart fa-lg top-right-badge"></i>
+
+            <img class="cards-image" src="/Images/4.jpg" />
+            <div class="cards-title vertical-card">
+              <p>Dosem</p>
+              <small> Digital Futures EP </small>
+              <small>₹800</small>
+            </div>
+          </div>
+          <div class="buttons_icons flex_c">
+            <button class="btn-card vertical-card">Add to cart</button>
+            <button class="bg-none btn-card vertical-card">
+              Remove from Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="img_text">
+            <i class="fas fa-heart fa-lg top-right-badge"></i>
+
+            <img class="cards-image" src="/Images/5.jpg" />
+            <div class="cards-title vertical-card">
+              <p>Above & Beyond</p>
+              <small> Group Therapy </small>
+              <small>₹3000</small>
+            </div>
+          </div>
+          <div class="buttons_icons flex_c">
+            <a href="/Pages/Cart/cart.html"
+              ><button class="bg-gray btn-card vertical-card">
+                Go to cart
+              </button></a
+            >
+            <button class="bg-none btn-card vertical-card">
+              Remove from Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="img_text">
+            <span class="top-left-badge">On Sale</span>
+            <i class="far fa-heart fa-lg top-right-badge"></i>
+
+            <img class="cards-image" src="/Images/6.jpg" />
+            <div class="cards-title vertical-card">
+              <p>Myon</p>
+              <small> Moon EP </small>
+              <small>₹2000</small>
+            </div>
+          </div>
+          <div class="buttons_icons flex_c">
+            <button class="btn-card vertical-card">Add to cart</button>
+            <button class="bg-none btn-card vertical-card">
+              Add to Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="img_text">
+            <span class="top-left-badge">On Sale</span>
+            <i class="far fa-heart fa-lg top-right-badge"></i>
+
+            <img class="cards-image" src="/Images/7.jpg" />
+            <div class="cards-title vertical-card">
+              <p>Ben Bohmer</p>
+              <small> Home Appariton EP </small>
+              <small>₹2000</small>
+            </div>
+          </div>
+          <div class="buttons_icons flex_c">
+            <button class="btn-card vertical-card">Add to cart</button>
+            <button class="bg-none btn-card vertical-card">
+              Add to Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="img_text">
+            <i class="fas fa-heart fa-lg top-right-badge"></i>
+
+            <img class="cards-image" src="/Images/8.jpg" />
+            <div class="cards-title vertical-card">
+              <p>Arty & Matt Zoo</p>
+              <small> Rebound </small>
+              <small>₹2000</small>
+            </div>
+          </div>
+          <div class="buttons_icons flex_c">
+            <button class="btn-card vertical-card">Add to cart</button>
+            <button class="bg-none btn-card vertical-card">
+              Remove from Wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script
+  src="https://kit.fontawesome.com/56744ae91f.js"
+  crossorigin="anonymous"
+></script>
