@@ -100,3 +100,8 @@ body{
 .img_txt_onside{
     padding: 0;
 }
+
+.image_div img{
+    width: 200px;
+    height: 200px;
+}
