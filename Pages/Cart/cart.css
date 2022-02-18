@@ -1,41 +1,91 @@
 .cards {
-    box-shadow: none;
-    padding: 0;
-    margin: 0;
-  }
-  
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
 .cards.horizontal {
-    width: 37.5rem;
-  }
+  width: max-content;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
 
-/* .horizontal-card-title {
-    font-size: 1.25rem;
-  } */
-  
 .cards-title-horizontal {
-    height: 150px ;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 0 1rem;
-    justify-content: flex-end;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1rem;
+  justify-content: flex-end;
+}
 
-.cards-qty{
-  cursor: pointer;
+.cards-qty {
   display: flex;
   align-items: center;
-  gap: 30px;
-  width: max-content;
+  gap: 1.875rem;
   padding: 0.5rem 1rem;
-  border-radius: 7px;
+  border-radius: 0.438rem;
 }
 
-.image_div img{
-  width: 150px;
-  height: 150px;
+.cards-qty i {
+  cursor: pointer;
 }
 
-.cards-title-horizontal{
+.cards img {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.cards-title-horizontal {
   gap: 1rem;
+}
+
+.bill-card {
+  gap: 0.5rem;
+  font-size: 13px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.bill-container {
+  justify-content: space-between;
+  color: var(--black-text);
+}
+
+.doc-checkout {
+  margin-top: 3rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10rem;
+  padding-right: 8rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid;
+}
+
+.btn.checkout {
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+#apply-coupon {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.cart-badge {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  top: 25px;
+  right: 84px;
+  justify-content: center;
+  font-size: 10px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
 }
