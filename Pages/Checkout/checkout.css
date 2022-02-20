@@ -1,0 +1,18 @@
+.doc-success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 25rem;
+    height: 25rem;
+}
+
+.doc-success h1{
+    color: var(--success-green);
+}
+
+.doc-success h3{
+    color: var(--black-text);
+}
